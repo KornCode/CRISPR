@@ -1,4 +1,3 @@
-```markdown
 # 🧬 CRISPR Genome Editing Simulator (OpenMPI)
 
 A simple parallelized CRISPR simulator in C using OpenMPI. This project mimics gene editing by identifying and modifying DNA sequences, leveraging distributed computation.
@@ -9,16 +8,6 @@ A simple parallelized CRISPR simulator in C using OpenMPI. This project mimics g
 - Parallelized editing using OpenMPI  
 - Segment-based CRISPR logic  
 - Example input and shell utilities
-
-## 📦 Files
-
-```
-CRISPR/
-├── crispr_mpi.c        # Main MPI logic
-├── crispr_seq.c        # Sequence processing
-├── movefile.sh         # Utility script
-├── strand.txt          # Sample input
-```
 
 ## 🛠 Usage
 
@@ -46,4 +35,3 @@ ATGCGTACGTAGCTAGCTAGCTAGCTAGCTA
 ## 📘 Reference
 
 Inspired by [this article](https://medium.freecodecamp.org/programming-the-genome-with-crispr-bd567a214e2a)
-```
